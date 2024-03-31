@@ -1,0 +1,50 @@
+<! DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>inverted</title>
+	<link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+	<div id="workspace">
+		<ul id="tab-nav">
+			<li class="tabs"><input  id="tab1" name="tab" type="radio" value="">
+				<label for="tab1">Микрофон</label>
+			<li class="tabs"><input checked name="tab" id="tab2" type="radio" value="">
+				<label for="tab2">Чат</label>
+			<li class="tabs"><input id="tab3" name="tab" type="radio" value="">
+				<label for="tab3">Джостик</label>
+			<li class="tabs"><input id="tab4" name="tab" type="radio" value="">
+				<label for="tab4">Музыка</label>
+		</ul id="tab-nav">
+		<div class="ctrl-panel" id="microphone">
+			<button id="mic-btn" type="submit"><img src="../images/microphone.png" alt="microphone"></img></button>
+		</div id="ctrl-panel1">
+		<div class="ctrl-panel" id="chat">
+			<form action="" method="">
+				<div id="cmd-list">
+					<textarea disabled>Список команд:
+					1. Вперед
+					2. Назад
+					3. Влево
+					4. Вправо</textarea>
+				</div id="cmd-list">
+				<div id="post-area">
+					<div id="sending-msg-area">
+						<input type="text" id="msg-input-field" placeholder="Сообщение">
+						<button type="#">
+							<img src="../images/black_plane.png" id="img-black-plane">
+							<img src="../images/white_plane.png" id="img-white-plane">
+						</button>
+					</div id="send-msg">
+					<label></label>					
+					<textarea disabled></textarea>
+				</div id="post-area">
+			</form>
+		</div id="ctrl-panel2">
+		<div class="ctrl-panel" id="ctrl-panel3"></div id="ctrl-panel3">
+		<div class="ctrl-panel" id="ctrl-panel4"></div id="ctrl-panel4">
+	</div id="workspace">
+</body>
+</html>
+
